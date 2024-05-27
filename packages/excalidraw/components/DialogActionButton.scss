@@ -23,25 +23,25 @@
     }
 
     &--danger {
-      background-color: var(--color-danger);
-      border-color: var(--color-danger);
+      background-color: #FF1E00;
+      border-color: #000;
       color: #fff;
     }
 
     &--primary {
-      background-color: var(--color-primary);
-      border-color: var(--color-primary);
+      background-color: #3887BE;
+      border-color: #000;
       color: #fff;
     }
   }
 
   &.theme--dark {
     .Dialog__action-button--danger {
-      color: var(--color-gray-100);
+      color: #ddd;
     }
 
     .Dialog__action-button--primary {
-      color: var(--color-gray-100);
+      color: #ddd;
     }
   }
 }

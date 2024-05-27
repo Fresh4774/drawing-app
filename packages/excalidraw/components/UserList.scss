@@ -53,12 +53,12 @@
 
   .UserList__more {
     @include avatarStyles;
-    background-color: var(--color-gray-20);
+    background-color: #212121;
     border: 0 !important;
     font-size: 0.625rem;
     font-weight: 400;
     flex-shrink: 0;
-    color: var(--color-gray-100);
+    color: #ddd;
     font-weight: bold;
   }
 
@@ -100,7 +100,7 @@
 
   .UserList__collaborator.is-muted
     .UserList__collaborator-status-icon-microphone-muted {
-    color: var(--color-danger);
+    color: #FF1E00;
     filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.5));
   }
 
@@ -117,7 +117,7 @@
       width: 0.125rem;
       height: 0.4rem;
       // keep this in sync with constants.ts
-      background-color: #a2f1a6;
+      background-color: #3887BE;
     }
 
     div:nth-of-type(1) {
@@ -144,16 +144,16 @@
     }
   }
 
-  --userlist-hint-bg-color: var(--color-gray-10);
-  --userlist-hint-heading-color: var(--color-gray-80);
-  --userlist-hint-text-color: var(--color-gray-60);
-  --userlist-collaborators-border-color: var(--color-gray-20);
+  --userlist-hint-bg-color: #212121;
+  --userlist-hint-heading-color: #ddd;
+  --userlist-hint-text-color: #ddd;
+  --userlist-collaborators-border-color: #323232;
 
   &.theme--dark {
-    --userlist-hint-bg-color: var(--color-gray-90);
-    --userlist-hint-heading-color: var(--color-gray-30);
-    --userlist-hint-text-color: var(--color-gray-40);
-    --userlist-collaborators-border-color: var(--color-gray-80);
+    --userlist-hint-bg-color: #212121;
+    --userlist-hint-heading-color: #ddd;
+    --userlist-hint-text-color: #ddd;
+    --userlist-collaborators-border-color: #323232;
   }
 
   .UserList__collaborators {

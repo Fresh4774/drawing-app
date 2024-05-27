@@ -9,11 +9,11 @@
   .welcome-screen-decor {
     pointer-events: none;
 
-    color: var(--color-gray-40);
+    color: #ddd;
 
     a {
-      --color: var(--color-primary);
-      color: var(--color);
+      --color: #ddd;
+      color: #fff;
       text-decoration: none;
       margin-bottom: -6px;
     }
@@ -21,7 +21,7 @@
 
   &.theme--dark {
     .welcome-screen-decor {
-      color: var(--color-gray-60);
+      color: #ddd;
     }
   }
 
@@ -163,7 +163,7 @@
 
     pointer-events: var(--ui-pointerEvents);
 
-    color: var(--color-gray-50);
+    color: #ddd;
     font-size: 0.875rem;
 
     width: 100%;
@@ -197,38 +197,38 @@
 
     &__shortcut {
       margin-left: auto;
-      color: var(--color-gray-40);
+      color: #ddd;
       font-size: 0.75rem;
     }
   }
 
   .welcome-screen-menu-item:hover {
     text-decoration: none;
-    background: var(--button-hover-bg);
+    background: #0f0f0f;
 
     .welcome-screen-menu-item__shortcut,
     .welcome-screen-menu-item__icon,
     .welcome-screen-menu-item__text {
-      color: var(--color-gray-100);
+      color: #ddd;
     }
   }
 
   .welcome-screen-menu-item:active {
-    background: var(--button-hover-bg);
+    background: #0f0f0f;
     border-color: var(--color-brand-active);
 
     .welcome-screen-menu-item__shortcut,
     .welcome-screen-menu-item__icon,
     .welcome-screen-menu-item__text {
-      color: var(--color-gray-100);
+      color: #ddd;
     }
 
     &--promo {
-      color: var(--color-promo) !important;
+      color: #ddd !important;
 
       &:hover {
         .welcome-screen-menu-item__text {
-          color: var(--color-promo) !important;
+          color: #ddd !important;
         }
       }
     }
@@ -236,20 +236,20 @@
 
   &.theme--dark {
     .welcome-screen-menu-item {
-      color: var(--color-gray-60);
+      color: #ddd;
 
       &__shortcut {
-        color: var(--color-gray-60);
+        color: #ddd;
       }
     }
 
     .welcome-screen-menu-item:hover {
-      background-color: var(--color-surface-low);
+      background-color: #0f0f0f;
 
       .welcome-screen-menu-item__icon,
       .welcome-screen-menu-item__shortcut,
       .welcome-screen-menu-item__text {
-        color: var(--color-gray-10);
+        color: #ddd;
       }
     }
 
@@ -257,7 +257,7 @@
       .welcome-screen-menu-item__icon,
       .welcome-screen-menu-item__shortcut,
       .welcome-screen-menu-item__text {
-        color: var(--color-gray-10);
+        color: #ddd;
       }
     }
   }

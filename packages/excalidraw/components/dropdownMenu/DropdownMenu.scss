@@ -27,7 +27,7 @@
     }
 
     .dropdown-menu-container {
-      background-color: var(--island-bg-color);
+      background-color: #212121;
       max-height: calc(100vh - 150px);
       overflow-y: auto;
       --gap: 2;
@@ -38,7 +38,7 @@
       padding: 0 0.625rem;
       column-gap: 0.625rem;
       font-size: 0.875rem;
-      color: var(--color-on-surface);
+      color: #ddd;
       width: 100%;
       box-sizing: border-box;
       font-weight: normal;
@@ -58,8 +58,8 @@
       }
 
       &--selected {
-        background: var(--color-primary-light);
-        --icon-fill-color: var(--color-primary-darker);
+        background: #323232;
+        --icon-fill-color: #ddd;
       }
 
       &__text {
@@ -84,13 +84,13 @@
       }
 
       &:hover {
-        background-color: var(--button-hover-bg);
+        background-color: #323232;
         text-decoration: none;
       }
 
       &:active {
-        background-color: var(--button-hover-bg);
-        border-color: var(--color-brand-active);
+        background-color: #323232;
+        border-color: #323232;
       }
 
       svg {
@@ -133,25 +133,25 @@
     width: var(--lg-button-size);
     height: var(--lg-button-size);
 
-    --background: var(--color-surface-mid);
+    --background: #212121;
 
-    background-color: var(--background);
+    background-color: #212121;
 
     @at-root .excalidraw.theme--dark#{&} {
-      --background: var(--color-surface-high);
+      --background: #212121;
       &:hover {
-        --background: #363541;
+        --background: #212121;
       }
     }
 
     &:hover {
-      --background: var(--color-surface-high);
-      background-color: var(--background);
+      --background: #323232;
+      background-color: #323232;
       text-decoration: none;
     }
 
     &:active {
-      border-color: var(--color-primary);
+      border-color: #323232;
     }
 
     svg {

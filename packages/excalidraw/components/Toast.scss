@@ -6,7 +6,7 @@
     $closeButtonPadding: 0.4rem;
 
     animation: fade-in 0.5s;
-    background-color: var(--button-gray-1);
+    background-color: #323232;
     border-radius: 4px;
     bottom: 10px;
     box-sizing: border-box;
@@ -21,7 +21,7 @@
 
     .Toast__message {
       padding: 0 $closeButtonSize + ($closeButtonPadding);
-      color: var(--popup-text-color);
+      color: #ddd;
       white-space: pre-wrap;
     }
 

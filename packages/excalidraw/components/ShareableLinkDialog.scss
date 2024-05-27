@@ -6,10 +6,10 @@
     flex-direction: column;
     gap: 1.5rem;
 
-    color: var(--text-primary-color);
+    color: #ddd;
 
     ::selection {
-      background: var(--color-primary-light-darker);
+      background: #323232;
     }
 
     h3 {
@@ -52,8 +52,8 @@
       font-size: 0.75rem;
       line-height: 110%;
 
-      background: var(--color-success-lighter);
-      color: var(--color-success);
+      background: #323232;
+      color: #ddd;
 
       & > svg {
         width: 0.875rem;
@@ -72,7 +72,7 @@
     }
 
     &__description {
-      border-top: 1px solid var(--color-gray-20);
+      border-top: 1px solid #323232;
 
       padding: 0.5rem 0.5rem 0;
       font-weight: 400;

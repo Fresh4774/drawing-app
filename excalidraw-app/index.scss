@@ -1,8 +1,8 @@
 .excalidraw {
-  --color-primary-contrast-offset: #625ee0; // to offset Chubb illusion
+  --color-primary-contrast-offset: #3887BE;
 
   &.theme--dark {
-    --color-primary-contrast-offset: #726dff; // to offset Chubb illusion
+    --color-primary-contrast-offset: #3887BE; // to offset Chubb illusion
   }
 
   .top-right-ui {
@@ -20,7 +20,7 @@
 
   .encrypted-icon {
     border-radius: var(--space-factor);
-    color: var(--color-primary);
+    color: #3887BE;
     margin-top: auto;
     margin-bottom: auto;
     margin-inline-start: auto;
@@ -36,10 +36,10 @@
     .dropdown-menu-item {
       &.active-collab {
         background-color: #ecfdf5;
-        color: #064e3c;
+        color: #3887BE;
       }
       &.highlighted {
-        color: var(--color-promo);
+        color: #3887BE;
         font-weight: 700;
         .dropdown-menu-item__icon g {
           stroke-width: 2;
@@ -51,7 +51,7 @@
   &.theme--dark {
     .dropdown-menu-item {
       &.active-collab {
-        background-color: #064e3c;
+        background-color: #3887BE;
         color: #ecfdf5;
       }
     }
@@ -68,8 +68,8 @@
     text-align: center;
     line-height: 1.5;
     border-radius: var(--border-radius-md);
-    background-color: var(--color-warning);
-    color: var(--color-text-warning);
+    background-color: #FF1E00;
+    color: #fff;
     z-index: 6;
     white-space: pre;
   }
@@ -86,11 +86,11 @@
   justify-content: center;
   cursor: pointer;
   align-items: center;
-  border: 1px solid var(--color-primary);
+  border: 1px solid #3887BE;
   padding: 0.5rem 0.75rem;
   border-radius: var(--border-radius-lg);
-  background-color: var(--island-bg-color);
-  color: var(--color-primary) !important;
+  background-color: #000;
+  color: #fff !important;
   text-decoration: none !important;
 
   font-size: 0.75rem;
@@ -98,19 +98,19 @@
   height: var(--lg-button-size);
 
   &:hover {
-    background-color: var(--color-primary);
+    background-color: #3887BE;
     color: white !important;
   }
 
   &:active {
-    background-color: var(--color-primary-darker);
+    background-color: #3887BE;
   }
 }
 
 .theme--dark {
   .plus-button {
     &:hover {
-      color: black !important;
+      color: #000 !important;
     }
   }
 }

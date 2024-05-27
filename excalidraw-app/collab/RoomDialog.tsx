@@ -96,13 +96,11 @@ export const RoomModal = ({
   if (activeRoomLink) {
     return (
       <>
-        <h3 className="RoomDialog__active__header">
-          {t("labels.liveCollaboration")}
-        </h3>
+        <h3 className="RoomDialog__active__header">Live Session</h3>
         <TextField
           value={username}
-          placeholder="Your name"
-          label="Your name"
+          placeholder="Your username"
+          label="Your username"
           onChange={onUsernameChange}
           onKeyDown={(event) => event.key === KEYS.ENTER && handleClose()}
         />
@@ -144,19 +142,6 @@ export const RoomModal = ({
               {tablerCheckIcon} copied
             </Popover.Content>
           </Popover.Root>
-        </div>
-        <div className="RoomDialog__active__description">
-          <p>
-            <span
-              role="img"
-              aria-hidden="true"
-              className="RoomDialog__active__description__emoji"
-            >
-              🔒{" "}
-            </span>
-            {t("roomDialog.desc_privacy")}
-          </p>
-          <p>{t("roomDialog.desc_exitSession")}</p>
         </div>
 
         <div className="RoomDialog__active__actions">

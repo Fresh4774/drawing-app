@@ -2,26 +2,26 @@
 
 .excalidraw {
   .collab-button {
-    --button-bg: var(--color-primary);
-    --button-color: var(--color-surface-lowest);
-    --button-border: var(--color-primary);
+    --button-bg: #3887BE;
+    --button-color: #ddd;
+    --button-border: #3887BE;
 
     --button-width: var(--lg-button-size);
     --button-height: var(--lg-button-size);
 
-    --button-hover-bg: var(--color-primary-darker);
-    --button-hover-border: var(--color-primary-darker);
+    --button-hover-bg: #3887BE;
+    --button-hover-border: #212121;
 
-    --button-active-bg: var(--color-primary-darker);
+    --button-active-bg: #3887BE;
 
-    box-shadow: 0 0 0 1px var(--color-surface-lowest);
+    box-shadow: 0 0 0 1px #000;
 
     flex-shrink: 0;
 
     // double .active to force specificity
     &.active.active {
-      background-color: #0fb884;
-      border-color: #0fb884;
+      background-color: #3887BE;
+      border-color: #3887BE;
 
       svg {
         color: #fff;
@@ -29,18 +29,18 @@
 
       &:hover,
       &:active {
-        background-color: #0fb884;
-        border-color: #0fb884;
+        background-color: #3887BE;
+        border-color: #3887BE;
       }
     }
   }
 
   .CollabButton.is-collaborating {
-    background-color: var(--button-special-active-bg-color);
+    background-color: #3887BE;
 
     .ToolIcon__icon svg,
     .ToolIcon__label {
-      color: var(--icon-green-fill-color);
+      color: #ddd;
     }
   }
 
@@ -58,8 +58,8 @@
     bottom: -5px;
     padding: 3px;
     border-radius: 50%;
-    background-color: $oc-green-2;
-    color: $oc-green-9;
+    background-color: #3887BE;
+    color: #ddd;
     font-size: 0.6rem;
     font-family: "Cascadia";
   }

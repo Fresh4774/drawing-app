@@ -67,9 +67,9 @@
     overflow-y: auto;
 
     // for modals, reset blurry bg
-    background: var(--island-bg-color);
+    background: #212121;
 
-    border: 1px solid var(--dialog-border-color);
+    border: 1px solid #323232;
     box-shadow: var(--modal-shadow);
     border-radius: 0.75rem;
     box-sizing: border-box;
@@ -100,7 +100,7 @@
   }
 
   .Modal__close {
-    color: var(--icon-fill-color);
+    color: #ddd;
     margin: 0;
     padding: 0.375rem;
     position: absolute;

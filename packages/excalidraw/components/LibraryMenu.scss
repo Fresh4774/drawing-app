@@ -9,8 +9,8 @@
   }
 
   .library-actions-counter {
-    background-color: var(--color-primary);
-    color: var(--color-primary-light);
+    background-color: #212121;
+    color: #ddd;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -73,7 +73,7 @@
       height: 1px;
       position: absolute;
       top: -1px;
-      background: var(--sidebar-border-color);
+      background: #323232;
     }
   }
 
@@ -89,7 +89,7 @@
     position: relative;
 
     border-radius: var(--border-radius-lg);
-    background-color: var(--color-primary);
+    background-color: #212121;
     color: $oc-white;
     text-align: center;
     white-space: nowrap;
@@ -99,10 +99,10 @@
     font-size: 0.75rem;
 
     &:hover {
-      background-color: var(--color-brand-hover);
+      background-color: #323232;
     }
     &:active {
-      background-color: var(--color-brand-active);
+      background-color: #323232;
     }
   }
 

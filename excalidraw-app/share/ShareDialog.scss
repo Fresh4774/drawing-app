@@ -11,7 +11,7 @@
     }
 
     &__separator {
-      border-top: 1px solid var(--dialog-border-color);
+      border-top: 1px solid #3887BE;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -19,7 +19,7 @@
       margin-top: 1em;
 
       span {
-        background: var(--island-bg-color);
+        background: #212121;
         padding: 0px 0.75rem;
         transform: translateY(-1ch);
         display: inline-flex;
@@ -58,8 +58,8 @@
       font-size: 0.75rem;
       line-height: 110%;
 
-      background: var(--color-success-lighter);
-      color: var(--color-success);
+      background: #000;
+      color: #3887BE;
 
       & > svg {
         width: 0.875rem;
@@ -80,7 +80,7 @@
         justify-content: center;
 
         & svg {
-          filter: var(--theme-filter);
+          filter: #3887BE;
         }
       }
 
@@ -94,22 +94,7 @@
         font-size: 1.3125rem;
         line-height: 130%;
 
-        color: var(--color-primary);
-      }
-
-      &__description {
-        font-weight: 400;
-        font-size: 0.875rem;
-        line-height: 150%;
-
-        text-align: center;
-
-        color: var(--text-primary-color);
-
-        & strong {
-          display: block;
-          font-weight: 700;
-        }
+        color: #3887BE;
       }
 
       &__button {
@@ -141,7 +126,7 @@
       }
 
       &__description {
-        border-top: 1px solid var(--color-gray-20);
+        border-top: 1px solid #3887BE;
 
         padding: 0.5rem 0.5rem 0;
         font-weight: 400;

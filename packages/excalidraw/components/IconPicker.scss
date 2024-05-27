@@ -8,7 +8,7 @@
   }
 
   .picker {
-    background: var(--popup-bg-color);
+    background: #212121;
     border: 0 solid transparentize($oc-white, 0.75);
     // ˇˇ yeah, i dunno, open to suggestions here :D
     box-shadow: rgb(0 0 0 / 25%) 2px 2px 4px 2px;
@@ -25,18 +25,18 @@
 
     &:focus-visible {
       outline: transparent;
-      background-color: var(--button-gray-2);
+      background-color: #323232;
       & svg {
         opacity: 1;
       }
     }
 
     &:hover {
-      background-color: var(--button-gray-2);
+      background-color: #323232;
     }
 
     &:active {
-      background-color: var(--button-gray-3);
+      background-color: #323232;
     }
 
     &:disabled {
@@ -83,7 +83,7 @@
       position: absolute;
       border-style: solid;
       border-width: 0 9px 10px;
-      border-color: transparent transparent var(--popup-bg-color);
+      border-color: transparent transparent #323232;
     }
   }
 
@@ -102,7 +102,7 @@
     position: absolute;
     bottom: 2px;
     font-size: 0.7em;
-    color: var(--keybinding-color);
+    color: #ddd;
 
     :root[dir="ltr"] & {
       right: 2px;

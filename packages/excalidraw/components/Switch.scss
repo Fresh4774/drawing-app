@@ -1,13 +1,13 @@
 @import "../css/variables.module.scss";
 
 .excalidraw {
-  --Switch-disabled-color: var(--color-border-outline);
-  --Switch-disabled-toggled-background: var(--color-border-outline-variant);
-  --Switch-disabled-border: var(--color-border-outline-variant);
-  --Switch-track-background: var(--island-bg-color);
-  --Switch-thumb-background: var(--color-on-surface);
-  --Switch-hover-background: var(--color-brand-hover);
-  --Switch-active-background: var(--color-brand-active);
+  --Switch-disabled-color: #323232;
+  --Switch-disabled-toggled-background: #212121
+  --Switch-disabled-border: #323232;
+  --Switch-track-background:  #323232;
+  --Switch-thumb-background: #212121;
+  --Switch-hover-background: #212121;
+  --Switch-active-background: #212121;
 
   .Switch {
     position: relative;

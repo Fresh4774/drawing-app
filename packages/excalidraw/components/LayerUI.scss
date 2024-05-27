@@ -6,11 +6,6 @@
     transition: width 0.1s ease-in-out;
   }
   .layer-ui__wrapper {
-    // when the rightside sidebar is docked, we need to resize the UI by its
-    // width, making the nested UI content shift to the left. To do this,
-    // we need the UI container to actually have dimensions set, but
-    // then we also need to disable pointer events else the canvas below
-    // wouldn't be interactive.
     position: absolute;
     width: 100%;
     height: 100%;
@@ -82,15 +77,15 @@
       line-height: 1;
 
       border-radius: var(--border-radius-lg);
-      border: 1px solid var(--default-border-color);
-      background-color: var(--island-bg-color);
-      color: var(--text-primary-color);
+      border: 1px solid #323232;
+      background-color: #212121;
+      color: #ddd;
 
       &:hover {
-        background-color: var(--button-hover-bg);
+        background-color: #212121;
       }
       &:active {
-        border-color: var(--color-primary);
+        border-color: #323232;
       }
 
       &--visible {

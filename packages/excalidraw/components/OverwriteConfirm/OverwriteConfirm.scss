@@ -16,7 +16,7 @@
       line-height: 130%;
       align-self: flex-start;
 
-      color: var(--text-primary-color);
+      color: #ddd;
     }
 
     &__Description {
@@ -35,7 +35,7 @@
 
       padding: 2.5rem;
 
-      background: var(--color-danger-background);
+      background: #FF1E00;
       border-radius: 0.5rem;
 
       font-family: "Assistant";
@@ -44,7 +44,7 @@
       font-size: 1rem;
       line-height: 150%;
 
-      color: var(--color-danger-color);
+      color: #ddd;
 
       &__spacer {
         flex-grow: 1;
@@ -56,29 +56,29 @@
         align-items: center;
         justify-content: center;
         border-radius: 2.5rem;
-        background: var(--color-danger-icon-background);
+        background: #FF1E00;
         width: 3.5rem;
         height: 3.5rem;
 
         padding: 0.75rem;
 
         svg {
-          color: var(--color-danger-icon-color);
+          color: #ddd;
           width: 1.5rem;
           height: 1.5rem;
         }
       }
 
       &.OverwriteConfirm__Description--color-warning {
-        background: var(--color-warning-background);
-        color: var(--color-warning-color);
+        background: #FF1E00;
+        color: #ddd;
 
         .OverwriteConfirm__Description__icon {
-          background: var(--color-warning-icon-background);
+          background: #FF1E00;
           flex: 0 0 auto;
 
           svg {
-            color: var(--color-warning-icon-color);
+            color: #ddd;
           }
         }
       }
@@ -118,7 +118,7 @@
 
           margin: 0;
 
-          color: var(--text-primary-color);
+          color: #ddd;
         }
       }
     }

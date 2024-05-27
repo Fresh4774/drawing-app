@@ -14,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    background-color: var(--sidebar-bg-color);
+    background-color: #212121;
     box-shadow: var(--sidebar-shadow);
 
     pointer-events: var(--ui-pointerEvents);
@@ -32,10 +32,10 @@
     border-radius: 0;
     width: calc(#{$right-sidebar-width} - var(--space-factor) * 2);
 
-    border-left: 1px solid var(--sidebar-border-color);
+    border-left: 1px solid #000;
 
     :root[dir="rtl"] & {
-      border-right: 1px solid var(--sidebar-border-color);
+      border-right: 1px solid #000;
       border-left: 0;
     }
   }
@@ -55,7 +55,7 @@
       content: "";
       width: calc(100% - 1.5rem);
       height: 1px;
-      background: var(--sidebar-border-color);
+      background: #212121;
       position: absolute;
       bottom: -1px;
     }
@@ -82,14 +82,14 @@
       }
 
       &:hover {
-        background: var(--button-hover-bg, var(--island-bg-color));
+        background: #323232;
       }
     }
 
     .sidebar__dock.selected {
       svg {
-        stroke: var(--color-primary);
-        fill: var(--color-primary);
+        stroke: #ddd;
+        fill: #ddd;
       }
     }
   }
@@ -132,16 +132,16 @@
     --button-width: auto;
     --button-bg: transparent;
     --button-hover-bg: transparent;
-    --button-active-bg: var(--color-primary);
-    --button-hover-color: var(--color-primary);
-    --button-hover-border: var(--color-primary);
+    --button-active-bg: #323232;
+    --button-hover-color: #fff;
+    --button-hover-border: #0f0f0f;
 
     &[data-state="active"] {
-      --button-bg: var(--color-primary);
-      --button-hover-bg: var(--color-primary-darker);
-      --button-hover-color: var(--color-icon-white);
-      --button-border: var(--color-primary);
-      color: var(--color-icon-white);
+      --button-bg: #323232;
+      --button-hover-bg: #323232;
+      --button-hover-color: #fff;
+      --button-border: #0f0f0f;
+      color: #fff;
     }
   }
 
@@ -161,8 +161,8 @@
       // buttons (both from top and bototm, due to flex layout)
       margin-top: -#{$padding + $border};
       margin-bottom: -#{$padding + $border};
-      border: $border solid var(--sidebar-border-color);
-      background: var(--default-bg-color);
+      border: $border solid #000;
+      background: #212121;
       border-radius: 0.625rem;
 
       .sidebar-tab-trigger {

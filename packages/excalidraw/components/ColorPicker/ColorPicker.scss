@@ -36,9 +36,9 @@
     margin: 0;
     width: 1.35rem;
     height: 1.35rem;
-    border: 1px solid var(--color-gray-30);
+    border: 1px solid #000;
     border-radius: var(--radius);
-    filter: var(--theme-filter);
+    filter: #3887BE;
     background-color: var(--swatch-color);
     background-position: left center;
     position: relative;
@@ -53,9 +53,9 @@
         left: -2px;
         right: -2px;
         bottom: -2px;
-        box-shadow: 0 0 0 1px var(--color-gray-30);
+        box-shadow: 0 0 0 1px #fff;
         border-radius: calc(var(--radius) + 1px);
-        filter: var(--theme-filter);
+        filter: #3887BE;
       }
     }
 
@@ -66,10 +66,10 @@
         left: -2px;
         right: -2px;
         bottom: -2px;
-        box-shadow: 0 0 0 1px var(--color-primary-darkest);
+        box-shadow: 0 0 0 1px #fff;
         z-index: 1; // due hover state so this has preference
         border-radius: calc(var(--radius) + 1px);
-        filter: var(--theme-filter);
+        filter: #3887BE;
       }
     }
 
@@ -83,7 +83,7 @@
         right: -4px;
         bottom: -4px;
         left: -4px;
-        border: 3px solid var(--focus-highlight-color);
+        border: 3px solid #3887BE;
         border-radius: calc(var(--radius) + 1px);
       }
 
@@ -130,7 +130,7 @@
   }
 
   .color-picker {
-    background: var(--popup-bg-color);
+    background: #212121;
     border: 0 solid transparentize($oc-white, 0.75);
     box-shadow: transparentize($oc-black, 0.75) 0 1px 4px;
     border-radius: 4px;
@@ -173,7 +173,7 @@
     height: 0;
     border-style: solid;
     border-width: 0 9px 10px;
-    border-color: transparent transparent var(--popup-bg-color);
+    border-color: transparent transparent #212121;
     position: absolute;
     top: 10px;
 
@@ -216,7 +216,7 @@
 
     &:focus {
       outline: none;
-      box-shadow: 0 0 0 2px var(--focus-highlight-color);
+      box-shadow: 0 0 0 2px #fff;
     }
   }
 
@@ -259,7 +259,7 @@
     &:focus {
       /* TODO: only show the border when the color is too light to see as a shadow */
       box-shadow: 0 0 4px 1px currentColor;
-      border-color: var(--select-highlight-color);
+      border-color: #3887BE;
     }
   }
 
@@ -283,7 +283,7 @@
     height: var(--default-button-size);
     flex-shrink: 0;
     padding: 0.5rem 0.5rem 0.5rem 0.75rem;
-    border: 1px solid var(--default-border-color);
+    border: 1px solid #3887BE;
     border-right: 0;
     box-sizing: border-box;
 
@@ -293,7 +293,7 @@
 
     :root[dir="rtl"] & {
       border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;
-      border-right: 1px solid var(--default-border-color);
+      border-right: 1px solid #3887BE;
       border-left: 0;
     }
 
@@ -308,7 +308,7 @@
     display: flex;
 
     &:focus-within {
-      box-shadow: 0 0 0 1px var(--color-primary-darkest);
+      box-shadow: 0 0 0 1px #fff;
       border-radius: var(--border-radius-lg);
     }
   }
@@ -318,14 +318,14 @@
     grid-template-columns: auto 1fr auto auto;
     gap: 8px;
     align-items: center;
-    border: 1px solid var(--default-border-color);
+    border: 1px solid #000;
     border-radius: 8px;
     padding: 0 12px;
     margin: 8px;
     box-sizing: border-box;
 
     &:focus-within {
-      box-shadow: 0 0 0 1px var(--color-primary-darkest);
+      box-shadow: 0 0 0 1px #fff;
       border-radius: var(--border-radius-lg);
     }
   }
@@ -341,11 +341,11 @@
     font-size: 0.875rem;
     font-family: inherit;
     background-color: transparent;
-    color: var(--text-primary-color);
+    color: #fff;
     border: 0;
     outline: none;
     height: var(--default-button-size);
-    border: 1px solid var(--default-border-color);
+    border: 1px solid #3887BE;
     border-left: 0;
     letter-spacing: 0.4px;
 
@@ -369,7 +369,7 @@
   }
 
   .color-picker-label-swatch-container {
-    border: 1px solid var(--default-border-color);
+    border: 1px solid #3887BE;
     border-radius: var(--border-radius-lg);
     width: var(--default-button-size);
     height: var(--default-button-size);

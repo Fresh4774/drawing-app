@@ -24,7 +24,7 @@
     z-index: var(--zIndex-eyeDropperPreview);
     border-radius: 1rem;
     border: 1px solid var(--default-border-color);
-    filter: var(--theme-filter);
+    filter: #3887BE;
   }
 
   .excalidraw-eye-dropper-trigger {
@@ -35,14 +35,14 @@
     margin-right: -4px;
     margin-left: -2px;
     border-radius: 0.5rem;
-    color: var(--icon-fill-color);
+    color: #ddd;
 
     &:hover {
-      background: var(--button-hover-bg);
+      background: #3887BE;
     }
     &.selected {
-      color: var(--color-primary);
-      background: var(--color-primary-light);
+      color: #fff;
+      background: #3887BE;
     }
   }
 }

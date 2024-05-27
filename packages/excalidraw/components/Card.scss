@@ -18,7 +18,7 @@
       flex: 0 0 auto;
       padding: 1.4rem;
       border-radius: 50%;
-      background: var(--card-color);
+      background: #212121;
       color: $oc-white;
 
       svg {
@@ -38,12 +38,12 @@
       height: 2.5rem;
       margin-top: 1em;
       margin-bottom: 0.3em;
-      background-color: var(--card-color);
+      background-color: #212121;
       &:hover {
-        background-color: var(--card-color-darker);
+        background-color: #323232;
       }
       &:active {
-        background-color: var(--card-color-darkest);
+        background-color: #323232;
       }
       .ToolIcon__label {
         color: $oc-white;

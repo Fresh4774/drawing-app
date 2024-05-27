@@ -58,12 +58,12 @@ $verticalBreakpoint: 861px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: var(--color-primary-light);
+        background-color: #323232;
       }
 
       .shortcut-desc {
         margin-left: 4px;
-        color: var(--color-gray-50);
+        color: #ddd;
       }
     }
 
@@ -71,7 +71,7 @@ $verticalBreakpoint: 861px;
       overflow-y: auto;
       box-sizing: border-box;
       margin-top: 12px;
-      color: var(--popup-text-color);
+      color: #ddd;
       user-select: none;
 
       .command-category {
@@ -90,7 +90,7 @@ $verticalBreakpoint: 861px;
       }
 
       .command-item {
-        color: var(--popup-text-color);
+        color: #ddd;
         height: 2.5rem;
         display: flex;
         justify-content: space-between;
@@ -101,7 +101,7 @@ $verticalBreakpoint: 861px;
         cursor: pointer;
 
         &:active {
-          background-color: var(--color-surface-low);
+          background-color: #323232;
         }
 
         .name {
@@ -112,7 +112,7 @@ $verticalBreakpoint: 861px;
       }
 
       .item-selected {
-        background-color: var(--color-surface-mid);
+        background-color: #323232;
       }
 
       .item-disabled {

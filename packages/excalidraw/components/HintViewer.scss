@@ -16,7 +16,7 @@ $wide-viewport-width: 1000px;
     width: 100%;
     margin-top: 0.5rem;
     text-align: center;
-    color: var(--color-gray-40);
+    color: #ddd;
     font-size: 0.75rem;
 
     @include isMobile {
@@ -31,7 +31,7 @@ $wide-viewport-width: 1000px;
 
   &.theme--dark {
     .HintViewer {
-      color: var(--color-gray-60);
+      color: #ddd;
     }
   }
 }

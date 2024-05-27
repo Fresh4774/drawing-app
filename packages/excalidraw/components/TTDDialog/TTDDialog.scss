@@ -49,7 +49,7 @@ $verticalBreakpoint: 861px;
   }
 
   .ttd-dialog-tab-trigger {
-    color: var(--color-on-surface);
+    color: #ddd;
     font-size: 0.875rem;
     margin: 0;
     padding: 0 1rem;
@@ -61,12 +61,12 @@ $verticalBreakpoint: 861px;
     letter-spacing: 0.4px;
 
     &[data-state="active"] {
-      border-bottom: 2px solid var(--color-primary);
+      border-bottom: 2px solid #323232;
     }
   }
 
   .ttd-dialog-triggers {
-    border-bottom: 1px solid var(--color-surface-high);
+    border-bottom: 1px solid #323232;
     margin-bottom: 1.5rem;
     padding-inline: 2.5rem;
   }
@@ -87,7 +87,7 @@ $verticalBreakpoint: 861px;
     height: 10rem;
     resize: none;
     border-radius: var(--border-radius-lg);
-    border: 1px solid var(--dialog-border-color);
+    border: 1px solid #323232;
     white-space: pre-wrap;
     padding: 0.85rem;
     box-sizing: border-box;
@@ -111,7 +111,7 @@ $verticalBreakpoint: 861px;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVQ4T2NkYGAQYcAP3uCTZhw1gGGYhAGBZIA/nYDCgBDAm9BGDWAAJyRCgLaBCAAgXwixzAS0pgAAAABJRU5ErkJggg==")
       left center;
     border-radius: var(--border-radius-lg);
-    border: 1px solid var(--dialog-border-color);
+    border: 1px solid #323232;
 
     height: 400px;
     width: auto;
@@ -138,7 +138,7 @@ $verticalBreakpoint: 861px;
   }
 
   .ttd-dialog-output-error {
-    color: red;
+    color: #FF1E00;
     font-weight: 800;
     font-size: 30px;
     word-break: break-word;
@@ -204,7 +204,7 @@ $verticalBreakpoint: 861px;
       height: 100%;
       resize: none;
       border-radius: var(--border-radius-lg);
-      border: 1px solid var(--dialog-border-color);
+      border: 1px solid #323232;
       white-space: pre-wrap;
       padding: 0.85rem;
       box-sizing: border-box;
@@ -242,14 +242,14 @@ $verticalBreakpoint: 861px;
 
       font-size: 12px;
       color: $oc-white;
-      background-color: var(--color-primary);
+      background-color: #3887BE;
       width: 100%;
 
       &:hover {
-        background-color: var(--color-primary-darker);
+        background-color: #3887BE;
       }
       &:active {
-        background-color: var(--color-primary-darkest);
+        background-color: #3887BE;
       }
 
       &:disabled {
@@ -257,7 +257,7 @@ $verticalBreakpoint: 861px;
         cursor: not-allowed;
 
         &:hover {
-          background-color: var(--color-primary);
+          background-color: #3887BE;
         }
       }
 
@@ -267,7 +267,7 @@ $verticalBreakpoint: 861px;
       }
 
       @at-root .excalidraw.theme--dark#{&} {
-        color: var(--color-gray-100);
+        color: #ddd;
       }
     }
 
@@ -285,10 +285,10 @@ $verticalBreakpoint: 861px;
         position: absolute;
         inset: 0;
 
-        --spinner-color: white;
+        --spinner-color: #fff;
 
         @at-root .excalidraw.theme--dark#{&} {
-          --spinner-color: var(--color-gray-100);
+          --spinner-color: #ddd;
         }
       }
 
@@ -307,7 +307,7 @@ $verticalBreakpoint: 861px;
     gap: 0.125rem;
 
     &__key {
-      border: 1px solid gray;
+      border: 1px solid #323232;
       padding: 2px 3px;
       border-radius: 4px;
     }

@@ -22,19 +22,3 @@
     right: 42px;
   }
 }
-
-/* TODO: if these are used, make sure to implement RTL support
-.FixedSideContainer_side_left {
-  left: var(--space-factor);
-  top: var(--space-factor);
-  bottom: var(--space-factor);
-  z-index: 1;
-}
-
-.FixedSideContainer_side_right {
-  right: var(--space-factor);
-  top: var(--space-factor);
-  bottom: var(--space-factor);
-  z-index: 3;
-}
-*/

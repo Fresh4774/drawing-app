@@ -19,34 +19,34 @@
     }
 
     &__btn {
-      --background: var(--color-surface-mid);
+      --background: #323232;
 
       display: flex;
       column-gap: 0.5rem;
       align-items: center;
-      background-color: var(--background);
+      background-color: #323232;
       padding: 0.625rem 1rem;
-      border: 1px solid var(--background);
+      border: 1px solid #323232;
       border-radius: var(--border-radius-lg);
-      color: var(--text-primary-color);
+      color: #ddd;
       font-weight: 600;
       font-size: 0.75rem;
       letter-spacing: 0.4px;
 
       @at-root .excalidraw.theme--dark#{&} {
-        --background: var(--color-surface-high);
+        --background: #212121;
         &:hover {
-          --background: #363541;
+          --background: #323232;
         }
       }
 
       &:hover {
-        --background: var(--color-surface-high);
+        --background: #212121;
         text-decoration: none;
       }
 
       &:active {
-        border-color: var(--color-primary);
+        border-color: #323232;
       }
     }
 
@@ -88,13 +88,13 @@
       }
 
       &-content {
-        border: 1px solid var(--dialog-border-color);
+        border: 1px solid #323232;
         border-radius: var(--border-radius-lg);
       }
     }
 
     &__shortcut {
-      border-bottom: 1px solid var(--dialog-border-color);
+      border-bottom: 1px solid #323232;
       padding: 0.375rem 0.75rem;
       display: flex;
       justify-content: space-between;
@@ -118,7 +118,7 @@
       display: flex;
       box-sizing: border-box;
       font-size: 0.625rem;
-      background-color: var(--color-primary-light);
+      background-color: #212121;
       border-radius: var(--border-radius-md);
       padding: 0.5rem;
       word-break: keep-all;

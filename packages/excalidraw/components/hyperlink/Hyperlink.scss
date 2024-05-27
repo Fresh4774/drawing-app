@@ -7,7 +7,7 @@
   position: absolute;
   box-shadow: 0px 2px 4px 0 rgb(0 0 0 / 30%);
   z-index: var(--zIndex-hyperlinkContainer);
-  background: var(--island-bg-color);
+  background: #212121;
   border-radius: var(--border-radius-md);
   box-sizing: border-box;
   // to account for LS due to rendering icons after new link created
@@ -32,7 +32,7 @@
     width: 18rem;
     border: none;
     background-color: transparent;
-    color: var(--text-primary-color);
+    color: #ddd;
 
     outline: none;
     border: none;

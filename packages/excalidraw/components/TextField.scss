@@ -1,16 +1,16 @@
 @import "../css/variables.module.scss";
 
 .excalidraw {
-  --ExcTextField--color: var(--color-on-surface);
-  --ExcTextField--label-color: var(--color-on-surface);
+  --ExcTextField--color: #ddd;
+  --ExcTextField--label-color: #ddd;
   --ExcTextField--background: transparent;
-  --ExcTextField--readonly--background: var(--color-surface-high);
-  --ExcTextField--readonly--color: var(--color-on-surface);
-  --ExcTextField--border: var(--color-border-outline);
-  --ExcTextField--readonly--border: var(--color-border-outline-variant);
-  --ExcTextField--border-hover: var(--color-brand-hover);
-  --ExcTextField--border-active: var(--color-brand-active);
-  --ExcTextField--placeholder: var(--color-border-outline-variant);
+  --ExcTextField--readonly--background: #323232;
+  --ExcTextField--readonly--color: #ddd;
+  --ExcTextField--border: #323232;
+  --ExcTextField--readonly--border: #323232;
+  --ExcTextField--border-hover: #ddd;
+  --ExcTextField--border-active: #ddd;
+  --ExcTextField--placeholder: #ddd;
 
   .ExcTextField {
     &--fullWidth {

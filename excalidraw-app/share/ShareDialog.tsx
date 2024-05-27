@@ -102,13 +102,11 @@ const ActiveRoomDialog = ({
 
   return (
     <>
-      <h3 className="ShareDialog__active__header">
-        {t("labels.liveCollaboration").replace(/\./g, "")}
-      </h3>
+      <h3 className="ShareDialog__active__header">Live Session</h3>
       <TextField
-        defaultValue={collabAPI.getUsername()}
-        placeholder="Your name"
-        label="Your name"
+        defaultValue={"Aquiner"}
+        placeholder="Your username"
+        label="Your username"
         onChange={collabAPI.setUsername}
         onKeyDown={(event) => event.key === KEYS.ENTER && handleClose()}
       />
@@ -150,19 +148,6 @@ const ActiveRoomDialog = ({
             {tablerCheckIcon} copied
           </Popover.Content>
         </Popover.Root>
-      </div>
-      <div className="ShareDialog__active__description">
-        <p>
-          <span
-            role="img"
-            aria-hidden="true"
-            className="ShareDialog__active__description__emoji"
-          >
-            🔒{" "}
-          </span>
-          {t("roomDialog.desc_privacy")}
-        </p>
-        <p>{t("roomDialog.desc_exitSession")}</p>
       </div>
 
       <div className="ShareDialog__active__actions">

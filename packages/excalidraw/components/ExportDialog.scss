@@ -106,7 +106,7 @@
     justify-content: center;
 
     border-radius: 1rem;
-    background-color: var(--button-color);
+    background-color: #3887BE;
     box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.28),
       0 6px 10px 0 rgba(0, 0, 0, 0.14);
 
@@ -115,10 +115,10 @@
     color: $oc-white;
 
     &:hover {
-      background-color: var(--button-color-darker);
+      background-color: #3887BE;
     }
     &:active {
-      background-color: var(--button-color-darkest);
+      background-color: #3887BE;
       box-shadow: none;
     }
 

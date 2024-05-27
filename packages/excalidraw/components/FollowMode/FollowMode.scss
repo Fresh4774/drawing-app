@@ -3,15 +3,15 @@
     position: absolute;
     box-sizing: border-box;
     pointer-events: none;
-    border: 2px solid var(--color-primary-hover);
+    border: 2px solid #3887BE;
     z-index: 9999;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 
     &__badge {
-      background-color: var(--color-primary-hover);
-      color: var(--color-primary-light);
+      background-color: #3887BE;
+      color: #ddd;
       padding: 0.25rem 0.5rem;
       margin-bottom: 0.5rem;
       border-radius: 0.5rem;
@@ -42,11 +42,11 @@
       border-radius: 0.25rem;
 
       &:hover {
-        background-color: var(--color-primary-darker);
+        background-color: #212121;
       }
 
       &:active {
-        background-color: var(--color-primary-darkest);
+        background-color: #212121;
       }
 
       svg {

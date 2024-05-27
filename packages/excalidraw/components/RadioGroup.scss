@@ -1,18 +1,18 @@
 @import "../css/variables.module.scss";
 
 .excalidraw {
-  --RadioGroup-background: var(--island-bg-color);
-  --RadioGroup-border: var(--color-surface-high);
+  --RadioGroup-background: #212121;
+  --RadioGroup-border: #323232;
 
-  --RadioGroup-choice-color-off: var(--color-primary);
-  --RadioGroup-choice-color-off-hover: var(--color-brand-hover);
-  --RadioGroup-choice-background-off: var(--island-bg-color);
-  --RadioGroup-choice-background-off-active: var(--color-surface-high);
+  --RadioGroup-choice-color-off: #ddd;
+  --RadioGroup-choice-color-off-hover: #ddd;
+  --RadioGroup-choice-background-off: #212121;
+  --RadioGroup-choice-background-off-active: #323232;
 
-  --RadioGroup-choice-color-on: var(--color-surface-lowest);
-  --RadioGroup-choice-background-on: var(--color-primary);
-  --RadioGroup-choice-background-on-hover: var(--color-brand-hover);
-  --RadioGroup-choice-background-on-active: var(--color-brand-active);
+  --RadioGroup-choice-color-on: #323232;
+  --RadioGroup-choice-background-on: #212121;
+  --RadioGroup-choice-background-on-hover: #323232;
+  --RadioGroup-choice-background-on-active: #323232;
 
   .RadioGroup {
     box-sizing: border-box;

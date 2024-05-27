@@ -18,11 +18,11 @@
     }
 
     &--hover {
-      border-color: var(--color-primary);
+      border-color: #323232;
     }
 
     &--selected {
-      border-color: var(--color-primary);
+      border-color: #323232;
       border-width: 1px;
     }
 
@@ -30,9 +30,9 @@
       opacity: 0.5;
       background: linear-gradient(
         -45deg,
-        var(--color-gray-10),
-        var(--color-gray-20),
-        var(--color-gray-10)
+        #212121,
+        #323232,
+        #212121
       );
       background-size: 200% 200%;
       animation: library-unit__skeleton-opacity-animation 0.2s linear;
@@ -42,9 +42,9 @@
   &.theme--dark .library-unit--skeleton {
     background-image: linear-gradient(
       -45deg,
-      var(--color-gray-100),
-      var(--color-gray-80),
-      var(--color-gray-100)
+     #212121,
+      #323232,
+     #212121
     );
   }
 
@@ -57,7 +57,7 @@
   }
 
   .library-unit__dragger > svg {
-    filter: var(--theme-filter);
+    filter: #3887BE;
     flex-grow: 1;
     max-height: 100%;
     max-width: 100%;
@@ -69,7 +69,7 @@
     align-items: center;
     background: none;
     border: none;
-    color: var(--icon-fill-color);
+    color: #ddd;
     display: flex;
     justify-content: center;
     margin: 0;

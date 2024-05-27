@@ -1,10 +1,10 @@
 @import "../css/variables.module.scss";
 
 .excalidraw {
-  --ImageExportModal-preview-border: #d6d6d6;
+  --ImageExportModal-preview-border: #323232;
 
   &.theme--dark {
-    --ImageExportModal-preview-border: #5c5c5c;
+    --ImageExportModal-preview-border: #323232;
   }
 
   .ImageExportModal {
@@ -78,7 +78,7 @@
         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVQ4T2NkYGAQYcAP3uCTZhw1gGGYhAGBZIA/nYDCgBDAm9BGDWAAJyRCgLaBCAAgXwixzAS0pgAAAABJRU5ErkJggg==")
           left center;
 
-        border: 1px solid var(--ImageExportModal-preview-border);
+        border: 1px solid #323232;
         border-radius: 12px;
 
         overflow: hidden;
