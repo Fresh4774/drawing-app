@@ -113,9 +113,6 @@
   }
 
   &.theme--dark {
-    // The percentage is inspired by
-    // https://material.io/design/color/dark-theme.html#properties, which
-    // recommends surface color of #121212, 93% yields #111111 for #FFF
 
     canvas {
       filter: var(--theme-filter);
@@ -145,7 +142,7 @@
       margin: 0;
       margin-bottom: 0.25rem;
       font-size: 0.75rem;
-      color: var(--text-primary-color);
+      color: #ddd;
       font-weight: normal;
       display: block;
     }
@@ -280,7 +277,7 @@
         --keybinding-color: #fff;
       }
       &.active {
-        background-color: var(--color-primary);
+        background-color: #212121;
       }
     }
   }

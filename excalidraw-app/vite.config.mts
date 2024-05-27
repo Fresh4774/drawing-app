@@ -129,8 +129,8 @@ export default defineConfig({
         ],
         start_url: "/",
         display: "standalone",
-        theme_color: "#121212",
-        background_color: "#ffffff",
+        theme_color: "#0f0f0f",
+        background_color: "#0f0f0f",
         file_handlers: [
           {
             action: "/",
